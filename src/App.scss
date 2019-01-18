@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container {
+  width: 400px;
+  height: 400px;
+  outline: 1px solid #aaa;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .a {
+    color: red;
+    flex-basis: 100%;
+  }
+  .b, .c {
+    flex-basis: 50%;
+    justify-content: stretch;
+  }
+  .b {
+    color: black;
+    color: greenyellow;
+  }
+}

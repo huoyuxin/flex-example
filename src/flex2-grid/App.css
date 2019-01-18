@@ -1,0 +1,36 @@
+.container {
+  outline: 1px solid #999;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.container>div{
+  flex-grow: 1;
+}
+.unequal {
+  outline: 1px solid #999;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.unequal>div{
+  flex-grow: 1;
+}
+.unequal>.special{
+  flex-grow: 0;
+}
+.special{
+  width: 100px;
+}
+.a {
+  background-color: aqua;
+}
+.b {
+  background-color: black;
+}
+.c {
+  background-color: cornflowerblue;
+}
+.d {
+  background-color: chocolate;
+}

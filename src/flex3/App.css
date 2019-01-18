@@ -1,0 +1,24 @@
+.container {
+  outline: 1px solid #999;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.a, .b, .c{
+  width: 30px;
+  margin: 0 20px;
+}
+.a {
+  background-color: aqua;
+  height: 150px;
+}
+.b {
+  background-color: black;
+  height: 200px;
+}
+.c {
+  background-color: cornflowerblue;
+  height: 100px;
+  margin-left: auto;
+}
